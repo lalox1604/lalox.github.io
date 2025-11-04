@@ -1,0 +1,26 @@
+.ej8 body {
+            color: #0505bc; 
+            font-family: Verdana, sans-serif;
+        }
+.ej8 h1 {
+            font-family: "Times New Roman", serif;
+            font-size: 28px;
+            margin: 10px 0;
+            color: #0505bc; 
+        }
+.ej8 h2 {
+            font-family: Courier, monospace;
+            font-size: 24px;
+            margin: 10px 0;
+            color: #0505bc; 
+        }
+.ej8 h3 {
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            margin: 10px 0;
+            color: #0505bc; 
+        }
+.ej8 p{
+         color: #0505bc; 
+            font-family: Verdana, sans-serif;
+}

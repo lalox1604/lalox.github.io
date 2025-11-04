@@ -1,0 +1,28 @@
+        .ej9 h1 em {
+            color: #dddddd;
+        }
+
+        .ej9 h2 em {
+            color: #cccccc;
+        }
+
+        .ej9 h3 em {
+            color: #bbbbbb;
+        }
+
+        .ej9 h4 em {
+            color: #aaaaaa;
+        }
+
+        .ej9 h5 em {
+            color: #999999;
+        }
+
+        .ej9 h6 em {
+            color: #888888;
+        }
+        .ej9 h1, .ej9 h2, .ej9 h3, .ej9 h4, .ej9 h5, .ej9 h6 {
+            font-family: Arial, sans-serif;
+            margin: 15px 0;
+            color: #333;
+        }

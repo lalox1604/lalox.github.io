@@ -1,0 +1,16 @@
+.ej18 {
+    background-image: url(https://i.pinimg.com/736x/34/5c/9c/345c9c23f8ac9ba092aa634edea5b83f.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+    background-position: all;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    min-height: 100vh; 
+}
+
+.ej18 p {
+    color: rgb(215, 224, 250);
+    margin: 10px 0;
+    line-height: 1.6;
+}
