@@ -1,0 +1,19 @@
+.ej16 h1,
+.ej16 h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Arial, sans-serif;
+    background-color: #e9e6e6; 
+    padding: 8px 12px;
+    color: #333;
+}
+
+.ej16 h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ej16 h2 {
+    font-size: 20px;
+    font-weight: normal;
+}

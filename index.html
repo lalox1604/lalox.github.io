@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Tutorial CSS 1ra Parte 2</title>
+    <style>
+        /* Estilos generales para organizar los ejercicios */
+        section {
+            margin-bottom: 40px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        h2.section-title {
+            font-family: sans-serif;
+            color: #333;
+            font-size: 24px;
+            margin-top: 0;
+        }
+                h3.section-title {
+            font-family: sans-serif;
+            color: #333;
+            font-size: 24px;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Ejercicio 1 -->
+    <h2 class="section-title">1 - Definición de estilos a nivel de elemento HTML</h2>
+    <section class="ej1">
+        <h1 style="color: black; background-color: #3498db;">Título h1 – Ejercicio 1</h1>
+        <h2 style="color: black; background-color: #2ecc71;">Título h2 – Ejercicio 1</h2>
+        <h3 style="color: black; background-color: #e74c3c;">Título h3 – Ejercicio 1</h3>
+    </section>
+
+    <!-- Ejercicio 2 -->
+    <h2 class="section-title">2 - Definición de estilos a nivel de página</h2>
+    <section class="ej2">
+        <h1 style="color: black; background-color: #d9d7d6;">Titulo de nivel 1</h1>
+        <h2 style="color: black; background-color: #c2c3c4;">Titulo de nivel 2</h2>
+        <h3 style="color: black; background-color: #a7a7a7;">Titulo de nivel 3</h3>
+        <h4 style="color: black; background-color: #8f8f8e;">Titulo de nivel 4</h4>
+        <h5 style="color: black; background-color: #767676;">Titulo de nivel 5</h5>
+        <h6 style="color: black; background-color: #414241;">Titulo de nivel 6</h6>
+    </section>
+
+    <!-- Ejercicio 3 -->
+    <h2 class="section-title">3 - Propiedades relacionadas a fuentes</h2>
+    <section class="ej3">
+        <style>
+            .ej3 h1 { font-size: 40px; font-family: Arial, sans-serif; }
+            .ej3 h2 { font-size: 30px; font-family: "Arial Black", sans-serif; }
+            .ej3 h3 { font-size: 25px; font-family: "Arial Narrow", sans-serif; }
+            .ej3 h4 { font-size: 20px; }
+            .ej3 h5 { font-size: 15px; }
+            .ej3 h6 { font-size: 10px; }
+        </style>
+        <h1>Título de nivel 1</h1>
+        <h2>Título de nivel 2</h2>
+        <h3>Título de nivel 3</h3>
+        <h4>Título de nivel 4</h4>
+        <h5>Título de nivel 5</h5>
+        <h6>Título de nivel 6</h6>
+    </section>
+
+    <!-- Ejercicio 4 -->
+    <h2 class="section-title">4 - Agrupación de varios elementos HTML con una misma regla de estilo</h2>
+    <section class="ej4">
+        <style>
+            .ej4 h6,
+            .ej4 p {
+                font-family: Arial, sans-serif;
+                color: blue;
+                font-size: 16px;
+            }
+        </style>
+        <h6>Título de nivel 6</h6>
+        <p>Esto es la prueba de un párrafo con un estilo propio.</p>
+    </section>
+
+    <!-- Ejercicio 5 -->
+    <h2 class="section-title">5 - Definición de varias reglas para un mismo elemento HTML</h2>
+    <section class="ej5">
+        <style>
+            .ej5 h6,
+            .ej5 p {
+                font-family: Arial, sans-serif;
+                font-size: 12px;
+            }
+            .ej5 h6 {
+                color: blue;
+            }
+            .ej5 p {
+                color: #aaaaaa;
+            }
+        </style>
+        <h6>Título de nivel 6</h6>
+        <p>Esto es un párrafo.</p>
+    </section>
+    <!-- Ejercicio 6 -->
+    <h2 class="section-title">6 - Propiedades relacionadas al texto (color, text-align, text-decoration)</h2>
+    <section class="ej6">
+            <style>
+        .ej6 p {
+            color: green;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            margin: 10px 0;
+        }
+        .ej6 .rojos {
+            color: rgb(255, 0, 0);
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            margin: 10px 0;
+        }
+    </style>
+
+    <p>SQL, Structure Query Language (Lenguaje de Consulta Estructurado) es un lenguaje de programación para trabajar con base de datos relacionales como MySQL, Oracle, etc.</p>
+    <p>MySQL es un intérprete de SQL, es un servidor de base de datos.</p>
+    <p>MySQL permite crear base de datos y tablas, insertar datos, modificarlos, eliminarlos, ordenarlos, hacer consultas y realizar muchas operaciones, etc., resumiendo: administrar bases de datos.</p>
+    <hr>
+    <p class="rojos">SQL, Structure Query Language (Lenguaje de Consulta Estructurado) es un lenguaje de programación para trabajar con base de datos relacionales como MySQL, Oracle, etc.</p>
+    <p class="rojos">MySQL es un intérprete de SQL, es un servidor de base de datos.</p>
+    <p class="rojos">MySQL permite crear base de datos y tablas, insertar datos, modificarlos, eliminarlos, ordenarlos, hacer consultas y realizar muchas operaciones, etc., resumiendo: administrar bases de datos.</p>
+</section>
+
+ <!-- Ejercicio 7 -->
+    <h3 class="section-title">7 - Más propiedades relacionadas al texto (letter-spacing, word-spacing, text-indent, text-transform)</h3>
+<section class="ej7">
+    <style>
+.ej7 h1 {
+            letter-spacing: 4px;
+            word-spacing: 8px;
+            text-transform: uppercase;
+            font-family: Arial, sans-serif;
+            font-size: 28px;
+            color: #333;
+            margin: 10px 0;
+        }
+        .ej7 h2 {
+            letter-spacing: 2px;
+            word-spacing: 4px;
+            text-transform: uppercase;
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            color: #444;
+            margin: 10px 0;
+        }
+        .ej7 h3 {
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            text-transform: uppercase;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            color: #555;
+            margin: 10px 0;
+        }
+    </style>
+    <h1>Este es un título de nivel 1</h1>
+    <h2>Este es un título de nivel 2</h2>
+    <h3>Este es un título de nivel 3</h3>
+</section>
+    
+<!-- Ejercicio 8 -->
+    <h2 class="section-title">8 - Herencia de propiedades de estilo. </h2>
+<section class="ej8">
+    <link rel="stylesheet" href="estilos0.css">
+    <h1>Título de nivel 1</h1>
+    <h2>Título de nivel 2</h2>
+    <h3>Título de nivel 3</h3>
+
+    <p>Prueba de un párrafo. Aparece con fuente de tipo "Verdana" que es el heredado del elemento body.</p>
+</section>
+
+<!-- Ejercicio 9 -->
+    <h2 class="section-title">9 - Definición de un estilo en función del contexto. </h2>
+<section class="ej9">
+    <link rel="stylesheet" href="estilos1.css">
+    <h1>Título de nivel 1  <em>esto</em></h1>
+    <h2>Título de nivel 2  <em>esto</em></h2>
+    <h3>Título de nivel 3  <em>esto</em></h3>
+    <h4>Título de nivel 4  <em>esto</em></h4>
+    <h5>Título de nivel 5  <em>esto</em></h5>
+    <h6>Título de nivel 6  <em>esto</em></h6>
+</section>
+
+<!-- Ejercicio 10 -->
+    <h2 class="section-title">10 - Definición de hojas de estilo en un archivo externo. (Pagina.html y estilos.css) </h2>
+<section class="ej10">
+<link rel="stylesheet" href="estilos2.css">
+ <h1>Base de Datos</h1>
+    <h2>Conceptos básicos</h2>
+    <p>Una base de datos almacena sus datos en tablas.</p>
+    <p>Una tabla es una estructura de datos que organiza los datos en columnas y filas; cada columna es un campo (o atributo) y cada fila, un registro. La intersección de una columna con una fila, contiene un dato específico, un solo valor.</p>
+    <p>Cada registro contiene un dato por cada columna de la tabla. Cada campo (columna) debe tener un nombre. El nombre del campo hace referencia a la información que almacenará.</p>
+    <p>Cada campo (columna) también debe definir el tipo de dato que almacenará.</p>
+</section>
+
+<!-- Ejercicio 11 parte 1 -->
+    <h2 class="section-title">11 - Definición de estilos por medio de clases </h2>
+     <h3 class="section-title">Problema 1 </h3>
+<section class="ej11">
+    <link rel="stylesheet" href="estilos3.css">
+<h1 class="subrayado">Estructuras repetitivas en Java</h1>
+    <p>Hasta ahora hemos empleado estructuras <span class="subrayado">SECUENCIALES</span> y <span class="subrayado">CONDICIONALES</span>. Existe otro tipo de estructuras tan importantes como las anteriores que son las estructuras <span class="subrayado">REPETITIVAS</span>.</p>
+    <p>Las estructuras repetitivas son más <span class="tachado">sencillas</span> complejas.</p>
+</section>
+
+<!-- Ejercicio 11 parte 2-->
+ <h2 class="section-title">11 - Definición de estilos por medio de clases </h2>
+    <h3 class="section-title">Problema 2 </h3>
+<section class="ej12">
+     <link rel="stylesheet" href="estilos4.css">
+    <p class="pregunta">¿Cuál de estos tres lenguajes es el más utilizado?</p>
+    <p class="respuesta">Java</p>
+    <p class="respuesta">C</p>
+    <p class="respuesta">C++</p>
+
+    <p class="pregunta">¿Qué posición se ubica el lenguaje C#?</p>
+    <p class="respuesta">4</p>
+    <p class="respuesta">5</p>
+    <p class="respuesta">10</p>
+
+    <p class="pregunta">¿Qué posición ocupa el PHP?</p>
+    <p class="respuesta">7</p>
+    <p class="respuesta">10</p>
+    <p class="respuesta">20</p>
+</section>
+
+<!-- Ejercicio 12 -->
+<h2 class="section-title"> 12 - Definición de estilos por medio de id.</h2>
+<section class="ej12">
+<link rel="stylesheet" href="estilos5.css">
+<div id="cabecera">
+        Gestor de base de datos MySQL
+    </div>
+
+    <div id="cuerpo">
+        SQL, Structure Query Language (Lenguaje de Consulta Estructurado) es un lenguaje de programación para trabajar con base de datos relacionales como MySQL, Oracle, etc.<br><br>
+        MySQL es un intérprete de SQL, es un servidor de base de datos.<br><br>
+        MySQL permite crear base de datos y tablas, insertar datos, modificarlos, eliminarlos, ordenarlos, hacer consultas y realizar muchas operaciones, etc., resumiendo: administrar bases de datos.
+    </div>
+
+    <div id="pie">
+        Tutorial de MySQL
+    </div>
+</section>
+
+<!-- Ejercicio 13 -->
+<h2 class="section-title"> 13 - Propiedades relacionadas al borde de un elemento HTML (border-width, border-style, border-color)</h2>
+<section class="ej13">
+<link rel="stylesheet" href="estilos6.css">
+ <h1>Título nivel 1.</h1>
+    <h2>Título nivel 2.</h2>
+    <h3>Título nivel 3.</h3>
+</section>
+
+<!-- Ejercicio 14-->
+<h2 class="section-title">14 - Más propiedades relacionadas al borde de un elemento HTML
+Problema:</h2>
+<section class="ej14">
+<link rel="stylesheet" href="estilos7.css">
+<div class="titulosecundario">
+        Prueba de estilos de bordes en CSS.
+    </div>
+</section>
+
+<!-- Ejercicio 15-->
+<h2 class="section-title">15 - Propiedades relacionadas al padding de un elemento HTML.
+Problema:</h2>
+<section class="ej15">
+<link rel="stylesheet" href="estilos8.css">
+    <h1 class="titulo">Prueba de título</h1>
+</section>
+
+<!-- Ejercicio 16-->
+<h2 class="section-title">16 - Propiedades relacionadas al margen de un elemento HTML.</h2>
+<section class="ej16">
+<link rel="stylesheet" href="estilos9.css">
+    <h1>Título de primer nivel</h1>
+    <h2>Título de segundo nivel</h2>
+</section>
+
+<!-- Ejercicio 17-->
+<h2 class="section-title">17 - Propiedades relacionadas a listas.</h2>
+<section class="ej17">
+<link rel="stylesheet" href="estilos10.css">
+        <div class="estructurados">
+        <ol>
+            <li>Pascal</li>
+            <li>C</li>
+        </ol>
+    </div>
+
+    <div class="orientados">
+        <ul>
+            <li>C++</li>
+            <li>Java</li>
+            <li>C#</li>
+        </ul>
+    </div>  
+</section>
+
+<!-- Ejercicio 18-->
+<h2 class="section-title">18 - Propiedades relacionadas al fondo (background)</h2>
+<section class="ej18">
+<link rel="stylesheet" href="estilos11.css">
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+    <p>Esto es una prueba de texto.</p>
+</section>
+
+<!-- Ejercicio 19-->
+<h2 class="section-title">19 - Propiedades relacionadas a fuentes (FORMATO RESUMIDO)</h2>
+<section class="ej19">
+<link rel="stylesheet" href="estilos12.css">
+    <h1>Título de nivel 1</h1>
+    <h2>Título de nivel 2</h2>
+    <h3>Título de nivel 3</h3>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+.titulosecundario {
+    border-top: 2px dotted #ff0000;   
+    border-bottom: 2px dotted #ff0000;
+    border-left: 0;
+    border-right: 0;
+    background-color: #ffffcc;        
+    padding: 8px 12px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}

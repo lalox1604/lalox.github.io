@@ -1,0 +1,33 @@
+.ej17 .estructurados {
+    font-family: 'Courier New', Courier, monospace;
+    color: #006400; 
+    background-color: #f0fff0;
+    padding: 12px;
+    border: 1px solid #9acd32;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.ej17 .orientados {
+    font-family: 'Times New Roman', Times, serif;
+    color: #00008B; 
+    background-color: #f0f8ff; 
+    padding: 12px;
+    border: 1px solid #4682b4;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.ej17 ol,
+.ej17 ul {
+    margin: 8px 0;
+    padding-left: 25px;
+}
+
+.ej17 ol li {
+    counter-increment: item;
+}
+
+.ej17 ul li {
+    list-style-type: lower-roman;
+}

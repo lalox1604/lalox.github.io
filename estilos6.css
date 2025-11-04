@@ -1,0 +1,32 @@
+.ej13 h1 {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0000ff; 
+    padding: 8px;
+    margin: 15px 0;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #00008B;
+}
+
+.ej13 h2 {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #0000ff; 
+    padding: 8px;
+    margin: 15px 0;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #0000CD;
+}
+
+.ej13 h3 {
+    border-width: 2px;
+    border-style: dotted;
+    border-color: #0000ff; 
+    padding: 8px;
+    margin: 15px 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #0000FF;
+}
